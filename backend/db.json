@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC Preta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Notebook Mac Pro",
+      "price": 12000.89
+    },
+    {
+      "id": 3,
+      "name": "Celular Samsung",
+      "price": 5000.89
+    },
+    {
+      "name": "Produto de teste",
+      "price": 125.98,
+      "id": 4
+    },
+    {
+      "name": "Veio do formulário",
+      "price": "1200,00",
+      "id": 5
+    },
+    {
+      "name": "Abc",
+      "price": "333",
+      "id": 6
+    },
+    {
+      "name": "",
+      "price": null,
+      "id": 7
+    },
+    {
+      "name": "testando",
+      "price": "9000",
+      "id": 8
+    }
+  ]
+}
