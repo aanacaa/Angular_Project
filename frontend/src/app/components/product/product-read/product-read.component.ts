@@ -13,23 +13,24 @@ export class ProductReadComponent implements OnInit, AfterViewInit {
   products: Product[]
   @ViewChild(MatTable) table: MatTable<Product>;
   //dataSource: ProductService;
+  /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
+  displayedColumns = ['id', 'name', 'price', 'action'];
+
   constructor(private ProductService: ProductService) { }
 
   ngOnInit(): void {
     this.ProductService.read().subscribe(products => {
       this.products = products
-      this.table.dataSource = this.products;
+      //this.table.dataSource = this.products;
       console.log(products)
     })
   }
-    /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
-    displayedColumns = ['id', 'name', 'price'];
-  
-  
-    ngAfterViewInit() {
-      //this.table.dataSource = this.products;
 
-    }
-    
+
+  ngAfterViewInit() {
+    //this.table.dataSource = this.products;
+
+  }
+
 
 }
