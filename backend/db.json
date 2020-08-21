@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Caneta BIC Preta",
+      "name": "Caneta BIC Pretas",
       "price": 5.89
     },
     {
@@ -22,23 +22,8 @@
     },
     {
       "name": "Veio do formulário",
-      "price": "1200,00",
+      "price": "1200.00",
       "id": 5
-    },
-    {
-      "name": "Abc",
-      "price": "333",
-      "id": 6
-    },
-    {
-      "name": "",
-      "price": null,
-      "id": 7
-    },
-    {
-      "name": "testando",
-      "price": "9000",
-      "id": 8
     }
   ]
 }
